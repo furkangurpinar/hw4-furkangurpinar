@@ -1,0 +1,659 @@
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li{
+    float: left;
+    position: relative;
+    width: 250px;
+  }
+  
+  .menu ul li ul{
+    display: none;
+  }
+  
+  .menu ul li:hover ul{
+    display: block;
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    background: #333;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 2px solid red;
+    border-left: 1px solid #595959;
+    padding: 5px;
+  }
+  
+  .menu ul li ul li a{
+    background: #595959;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    font-size: .8em;
+  }
+  
+  .menu li a:hover{
+    background: rgb(248,140,0);
+    transition: .5s;
+  }
+  
+  .menu ul li ul li a:hover{
+    padding-left: 15px;
+    
+  }
+  .iyuv{
+    position: absolute;
+    
+    font-family:'Source Sans Pro' , sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    top: 50px;
+    left: 1000px;
+    color: rgb(rgb(51, 51, 51));
+  }
+  
+  .image1{
+      position: absolute;
+      top: 300px;
+      
+      
+
+  }
+  .uckutu
+			{   
+                position: absolute;	
+				height:200px;
+				width:250px;
+				border:8px solid blue;
+				margin:750px;
+                left: -500px;
+                background-color: #CBAC57;
+			}
+            .uckutu1
+			{   
+                position: absolute;	
+				height:200px;
+				width:250px;
+				border:8px solid magenta;
+				margin:750px;
+                left: -100px;
+                background-color: #42b4d6;
+			}
+            .uckutu2
+			{   
+                position: absolute;	
+				height:200px;
+				width:250px;
+				border:8px solid green;
+        background-color: brown;
+				margin:750px;
+                left: 300px;
+			}
+      .kutudort{
+        position: absolute;	
+				height:350px;
+				width:1500px;
+				border:8px solid rgb(235, 116, 4);
+				margin:1200px;
+                left: -1200px;
+                background-color: #e6cc87;
+        
+        
+
+          }
+            .duyuru{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 36px;
+                position: absolute;
+                margin-top: 765px;
+                left: 300px;
+                color: rgb(rgb(51, 51, 51));
+            }
+            .duyuru:link, a:active, a:visited {
+              color: #CBAC57;
+              text-decoration: none}
+              
+              .duyuru:hover {
+              color: #42b4d6;
+                     text-decoration: underline;
+              }
+            .etkinlik{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 36px;
+                position: absolute;
+                margin-top: 765px;
+                left: 700px;
+                color: rgb(rgb(51, 51, 51));
+            }
+            .etkinlik:link, a:active, a:visited {
+              color: #CBAC57;
+              text-decoration: none}
+              
+              .etkinlik:hover {
+              color: #42b4d6;
+                     text-decoration: underline;
+              }
+            .haber{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 36px;
+                position: absolute;
+                margin-top: 765px;
+                left: 1100px;
+                color: rgb(rgb(51, 51, 51));
+            }
+            .haber:link, a:active, a:visited {
+              color: #CBAC57;
+              text-decoration: none}
+              
+              .haber:hover {
+              color: #42b4d6;
+                     text-decoration: underline;
+              }
+              .makale1{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 810px;
+                left: 260px;
+                color: rgb(rgb(51, 51, 51));
+
+              }
+              .makale1:link, a:active, a:visited {
+                color: #0d0b06;
+                text-decoration: none}
+                
+                .makale1:hover {
+                color: #42b4d6;
+                       text-decoration: underline;
+                }
+              .makale2{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 870px;
+                left: 260px;
+                color: rgb(rgb(51, 51, 51));
+
+              }
+              .makale2:link, a:active, a:visited {
+                color: #0e0c07;
+                text-decoration: none}
+                
+                .makale2:hover {
+                color: #42b4d6;
+                       text-decoration: underline;
+                }
+              .makale3{
+                position: absolute;
+                font-weight: bold;
+                font-family: 'Roboto Slab' , serif;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 930px;
+                left: 260px;
+                color: rgb(rgb(51, 51, 51));
+
+              }
+              .makale3:link, a:active, a:visited {
+                color: #0e0c07;
+                text-decoration: none}
+                
+                .makale3:hover {
+                color: #42b4d6;
+                       text-decoration: underline;
+                }
+                .makale4{
+                  position: absolute;
+                  font-weight: bold;
+                  font-family: 'Roboto Slab' , serif;
+                  font-size: 18px;
+                  position: absolute;
+                  margin-top: 810px;
+                  left: 670px;
+                  color: rgb(rgb(51, 51, 51));
+  
+                }
+                .makale4:link, a:active, a:visited {
+                  color: #0e0c07;
+                  text-decoration: none}
+                  
+                  .makale4:hover {
+                  color: #42b4d6;
+                         text-decoration: underline;
+                  }
+                  .makale5{
+                    position: absolute;
+                    font-weight: bold;
+                    font-family: 'Roboto Slab' , serif;
+                    font-size: 18px;
+                    position: absolute;
+                    margin-top: 870px;
+                    left: 670px;
+                    color: rgb(rgb(51, 51, 51));
+    
+                  }
+                  .makale5:link, a:active, a:visited {
+                    color: #0e0c07;
+                    text-decoration: none}
+                    
+                    .makale5:hover {
+                    color: #42b4d6;
+                           text-decoration: underline;
+                    }
+                    .makale6{
+                      position: absolute;
+                      font-weight: bold;
+                      font-family: 'Roboto Slab' , serif;
+                      font-size: 18px;
+                      position: absolute;
+                      margin-top: 930px;
+                      left: 670px;
+                      color: rgb(rgb(51, 51, 51));
+      
+                    }
+                    .makale6:link, a:active, a:visited {
+                      color: #0e0c07;
+                      text-decoration: none}
+                      
+                      .makale6:hover {
+                      color: #42b4d6;
+                             text-decoration: underline;
+                      }
+                      .makale7{
+                        position: absolute;
+                        font-weight: bold;
+                        font-family: 'Roboto Slab' , serif;
+                        font-size: 18px;
+                        position: absolute;
+                        margin-top: 810px;
+                        left: 1080px;
+                        color: rgb(rgb(51, 51, 51));
+        
+                      }
+                      .makale7:link, a:active, a:visited {
+                        color: #0e0c07;
+                        text-decoration: none}
+                        
+                        .makale7:hover {
+                        color: #42b4d6;
+                               text-decoration: underline;
+                        }
+                        .makale8{
+                          position: absolute;
+                          font-weight: bold;
+                          font-family: 'Roboto Slab' , serif;
+                          font-size: 18px;
+                          position: absolute;
+                          margin-top: 870px;
+                          left: 1080px;
+                          color: rgb(rgb(51, 51, 51));
+          
+                        }
+                        .makale8:link, a:active, a:visited {
+                          color: #0e0c07;
+                          text-decoration: none}
+                          
+                          .makale8:hover {
+                          color: #42b4d6;
+                                 text-decoration: underline;
+                          }
+                          .makale9{
+                            position: absolute;
+                            font-weight: bold;
+                            font-family: 'Roboto Slab' , serif;
+                            font-size: 18px;
+                            position: absolute;
+                            margin-top: 930px;
+                            left: 1080px;
+                            color: rgb(rgb(51, 51, 51));
+            
+                          }
+                          .makale9:link, a:active, a:visited {
+                            color: #0e0c07;
+                            text-decoration: none}
+                            
+                            .makale9:hover {
+                            color: #42b4d6;
+                                   text-decoration: underline;
+                            }
+                            
+                            
+
+                            .footer1{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1250px;
+                              left: 100px;
+                              color: rgb(rgb(51, 51, 51));
+                              
+
+
+                            }
+                            .footer2{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1300px;
+                              left: 100px;
+                              color: rgb(rgb(51, 51, 51));
+                              
+
+
+                            }
+                            .footer3{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1400px;
+                              left: 100px;
+                              color: rgb(rgb(51, 51, 51));
+                              
+
+
+                            }
+                            .footer4{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1500px;
+                              left: 100px;
+                              color: rgb(rgb(104, 96, 213));
+                              
+
+
+                            }
+                            .footer5{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1250px;
+                              left: 700px;
+                              color: rgb(rgb(104, 96, 213));
+
+                            }
+                            .footer6{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1300px;
+                              left: 700px;
+                              color: rgb(rgb(104, 96, 213));
+
+                            }
+                            .footer6:link, a:active, a:visited {
+                              color: #0e0c07;
+                              text-decoration: none}
+                              
+                              .footer6:hover {
+                              color: #42b4d6;
+                                     text-decoration: underline;
+                              }
+                            .footer7{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1350px;
+                              left: 700px;
+                              color: rgb(rgb(104, 96, 213));
+
+                            }
+                            .footer7:link, a:active, a:visited {
+                              color: #0e0c07;
+                              text-decoration: none}
+                              
+                              .footer7:hover {
+                              color: #42b4d6;
+                                     text-decoration: underline;
+                              }
+                            .footer8{
+                              position: absolute;
+                              font-weight: bold;
+                              font-family: 'Roboto Slab' , serif;
+                              font-size: 18px;
+                              position: absolute;
+                              margin-top: 1400px;
+                              left: 700px;
+                              color: rgb(rgb(104, 96, 213));
+
+                            }
+                            .footer8:link, a:active, a:visited {
+                              color: #0e0c07;
+                              text-decoration: none}
+                              
+                              .footer8:hover {
+                              color: #42b4d6;
+                                     text-decoration: underline;
+                              }
+                              .footer9{
+                                position: absolute;
+                                font-weight: bold;
+                                font-family: 'Roboto Slab' , serif;
+                                font-size: 18px;
+                                position: absolute;
+                                margin-top: 1250px;
+                                left: 1200px;
+                                color: rgb(rgb(104, 96, 213));
+                              }
+                              .footer10{
+                                position: absolute;
+                                font-weight: bold;
+                                font-family: 'Roboto Slab' , serif;
+                                font-size: 18px;
+                                position: absolute;
+                                margin-top: 1300px;
+                                left: 1200px;
+                                color: rgb(rgb(104, 96, 213));
+  
+                              }
+                              .footer10:link, a:active, a:visited {
+                                color: #0e0c07;
+                                text-decoration: none}
+                                
+                                .footer10:hover {
+                                color: #42b4d6;
+                                       text-decoration: underline;
+                                }
+                                .footer11{
+                                  position: absolute;
+                                  font-weight: bold;
+                                  font-family: 'Roboto Slab' , serif;
+                                  font-size: 18px;
+                                  position: absolute;
+                                  margin-top: 1350px;
+                                  left: 1200px;
+                                  color: rgb(rgb(104, 96, 213));
+    
+                                }
+                                .footer11:link, a:active, a:visited {
+                                  color: #0e0c07;
+                                  text-decoration: none}
+                                  
+                                  .footer11:hover {
+                                  color: #42b4d6;
+                                         text-decoration: underline;
+                                  }
+                                  .footer12{
+                                    position: absolute;
+                                    font-weight: bold;
+                                    font-family: 'Roboto Slab' , serif;
+                                    font-size: 18px;
+                                    position: absolute;
+                                    margin-top: 1400px;
+                                    left: 1200px;
+                                    color: rgb(rgb(104, 96, 213));
+      
+                                  }
+                                  .footer12:link, a:active, a:visited {
+                                    color: #0e0c07;
+                                    text-decoration: none}
+                                    
+                                    .footer12:hover {
+                                    color: #42b4d6;
+                                           text-decoration: underline;
+                                    }
+                                    .fab {
+                                      font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:-5px;
+  margin-top:1500px;
+  color:inherit;
+  opacity:0.75;
+                                      
+                                      
+                                      
+                                      }
+                                      .fab:hover {
+                                      opacity: 0.6;
+                                      }
+                                      .fa-facebook-f {
+                                      background: #3B5998;
+                                      color: white;
+                                      }
+                                      .fa-twitter {
+                                      background: #55ACEE;
+                                      color: white;
+                                      }
+                                      .fa-google {
+                                      background: #dd4b39;
+                                      color: white;
+                                      }
+                                      .fa-linkedin {
+                                      background: #007bb5;
+                                      color: white;
+                                      }
+                                      .fa-youtube {
+                                      background: #bb0000;
+                                      color: white;
+                                      }
+                                      .fa-instagram {
+                                      background: #125688;
+                                      color: white;
+                                      }
+                                      .resim1{
+                                        position: absolute;
+                                       margin-top: 1000px;
+                                         left: 100px;
+
+                                      }
+                                      .resim1:hover {
+                                        -ms-transform: scale(1.3); /* IE 9 */
+                                        -webkit-transform: scale(1.3); /* Safari 3-8 */
+                                         transform: scale(1.3); 
+                                       }
+                                        
+                                      .resim2{
+                                        position: absolute;
+                                       margin-top: 1000px;
+                                         left: 500px;
+
+                                      }
+                                      .resim2:hover {
+                                        -ms-transform: scale(1.3); /* IE 9 */
+                                        -webkit-transform: scale(1.3); /* Safari 3-8 */
+                                         transform: scale(1.3); 
+                                       }
+                                        
+                                      .resim3{
+                                        position: absolute;
+                                       margin-top: 1000px;
+                                         left: 800px;
+
+                                      }
+                                      .resim3:hover {
+                                        -ms-transform: scale(1.3); /* IE 9 */
+                                        -webkit-transform: scale(1.3); /* Safari 3-8 */
+                                         transform: scale(1.3); 
+                                       }
+                                        
+                                      .resim4{
+                                        position: absolute;
+                                       margin-top: 1000px;
+                                         left: 1100px;
+                                        
+                                         
+
+                                      }
+                                      .resim4:hover {
+                                        -ms-transform: scale(1.3); /* IE 9 */
+                                        -webkit-transform: scale(1.3); /* Safari 3-8 */
+                                         transform: scale(1.3); 
+                                         
+                                         
+                                       }
+                                       .copyright{
+                                        position: absolute;
+                                        font-weight: bold;
+                                        font-family: 'Roboto Slab' , serif;
+                                        font-size: 18px;
+                                        position: absolute;
+                                        margin-top: 1520px;
+                                        left: 800px;
+                                        color: rgb(rgb(104, 96, 213));
+                                       }
+                                      
+                                      .copyright:link, a:active, a:visited {
+                                        color: #0e0c07;
+                                        text-decoration: none}
+                                        
+                                        .copyright:hover {
+                                        color: #42b4d6;
+                                               text-decoration: underline;
+                                        }
+                                       
+                                        
+                                      
+
+
+                                     
+
+                                    
+  
+
+
+
+
+
+
+                            
+
+
+                           
